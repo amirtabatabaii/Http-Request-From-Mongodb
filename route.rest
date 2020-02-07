@@ -1,0 +1,35 @@
+GET http://localhost:3000/toDoList
+
+###
+
+GET http://localhost:3000/toDoList/5e3a726a1909612a40bff1f4
+
+###
+
+POST  http://localhost:3000/toDoList
+Content-Type: application/json
+
+{
+    "Title": "mehdiiiii",
+    "Date": "666",
+    "IsDone": "3yyyy",
+    "Description": "ddd",
+    "PriorityType":" 6666666"
+}
+
+###
+
+DELETE http://localhost:3000/toDoList/5e3a724b1909612a40bff1f3
+
+###
+
+PATCH http://localhost:3000/toDoList/5e3a75f7698fb239602c0c1a
+Content-Type: application/json
+
+{
+    "Title": "111111",
+    "Date": "666",
+    "IsDone": "3yyyy",
+    "Description": "ddd",
+    "PriorityType":" 6666666"
+}
